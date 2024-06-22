@@ -1,0 +1,31 @@
+.file-explorer {
+  font-family: Arial, sans-serif;
+  user-select: none;
+  max-width: 560px;
+  padding: 16px;
+  margin: 32px auto;
+}
+
+.file-explorer-list li {
+  margin-bottom: 2px;
+}
+.file-explorer-list,
+.file-explorer-list-nested {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.file-explorer-list-nested {
+  margin-inline-start: 25px;
+  margin-top: 2px;
+}
+.file-explorer-list-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+.file-explorer-list-label p {
+  text-transform: capitalize;
+  margin: 0;
+}
